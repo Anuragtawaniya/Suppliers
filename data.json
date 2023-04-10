@@ -1,0 +1,32 @@
+[
+    
+    {
+      "category": "Medical Supplies",
+      "channel": "Direct",
+      "request_description": "Surgical Masks",
+      "contact_numbers": ["+91-9999999999", "+91-8888888888"],
+      "state": "Maharashtra",
+      "district": "Mumbai",
+      "source_time": "2023-04-10T09:00:00.000Z"
+    },
+    {
+      "category": "Food Supplies",
+      "channel": "Indirect",
+      "request_description": "Rice",
+      "contact_numbers": ["+91-7777777777"],
+      "state": "Kerala",
+      "district": "Thrissur",
+      "source_time": "2023-04-11T11:30:00.000Z"
+    },
+    {
+      "category": "Medical Supplies",
+      "channel": "Direct",
+      "request_description": "Oxygen Cylinders",
+      "contact_numbers": ["+91-6666666666", "+91-5555555555"],
+      "state": "Tamil Nadu",
+      "district": "Chennai",
+      "source_time": "2023-04-12T16:45:00.000Z"
+    }
+
+  ]
+  

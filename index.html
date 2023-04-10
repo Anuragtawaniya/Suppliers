@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Suppliers</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Suppliers</h1>
+      <form id="filter-form">
+        <label for="category-select">Category:</label>
+        <select id="category-select" onchange="categoryFilter()">
+          <option value="">All</option>
+        </select>
+        <label for="channel-select">Channel:</label>
+        <select id="channel-select">
+          <option value="">All</option>
+        </select>
+        <label for="state-select">State:</label>
+        <select id="state-select">
+          <option value="">All</option>
+        </select>
+        <button type="submit">Filter</button>
+      </form>
+      <div id="supplier-container"></div>
+      <div id="pagination-container"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
